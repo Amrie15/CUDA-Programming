@@ -1,0 +1,24 @@
+Device 0:
+name: GeForce GTX 480
+Compute capability 2.0
+total global memory(KB): 1509504
+shared mem per block: 49152
+regs per block: 32768
+warp size: 32
+max threads per block: 1024
+max thread dim z:1024 y:1024 x:64
+max grid size z:65535 y:65535 x:65535
+clock rate(KHz):
+total constant memory (bytes): 65536
+multiprocessor count 15
+memory bus width: 384
+memory clock rate (KHz): 1848000
+L2 cache size (bytes): 786432
+max threads per SM: 1536
+
+Vector Addition time comparison
+	 GPU Time 	CPU Time
+100    	 0.000016	0.000006
+10000	 0.000022	0.000086
+1000000  0.000181	0.004772
+10000000 0.000169	0.041456
